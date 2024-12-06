@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Saneamento Para Todos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./denuncia.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="estrutura">
+
+        <header class="header">
+            <h1 class="titulo1">Saneamento Para Todos</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Sobre</a></li>
+                    <li><a href="./denuncia.html">Denúncia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <nav class="sidenav">
+            <ul>
+                <li>
+                    <a href="./dados-agua.html"><img src="img/icones/esgoto.svg" alt="Esgoto"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <div class="titulo">
+                <h1>Denúncia</h1>
+                <span>É um direito que todos devem ter.</span>
+
+
+                <form id="denuncia" onsubmit="return false;">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required><br><br>
+
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required><br><br>
+
+                    <label for="municipio">Município:</label>
+                    <input type="text" id="municipio" name="municipio" required><br><br>
+
+                    <label for="descricaoDenuncia">Denúncia:</label>
+                    <textarea id="descricaoDenuncia" name="descricaoDenuncia" required></textarea><br><br>
+
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
